@@ -1,0 +1,6 @@
+r=open('01.txt','w')
+s=input('Какая фамилия? ')
+s1=input('Какое имя? ')
+r.write(s)
+r.write(s1)
+r.close()
